@@ -5,5 +5,36 @@
 body {
   margin: 0;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  background-color: #c1b5ad;
+  /* background-color: #c1b5ad; */
+}
+
+#map {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  /* display: inline; */
+}
+
+#navbar {
+  position: absolute;
+  height: 5vh;
+  background-color: orangered;
+  z-index: 2;
+  width: 100%;
+}
+
+#smallContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+#smallContainer > div {
+  z-index: 2;
+  height: 15vw;
+  width: 20vw;
+  position: relative;
+  background-color: darkslateblue;
+  opacity: 0.5;
 }
